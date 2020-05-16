@@ -4,18 +4,6 @@ body{
     font-size: 30px;
 }
 
-/* Body Header */
-
-#body-header {
-    height: 65vh;
-    opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 1.2rem;
-}
-
 /*Section*/
 section{
 	/*width: 100%;*/
@@ -66,7 +54,7 @@ section:nth-child(2n){
 
 /*body header*/
 #body-header{
-	background-image: url(Images/macbook_mouse.jpg);
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
 	/*z-index: 2;*/
 	height: 65vh;
 	background-size: cover;
@@ -76,6 +64,11 @@ section:nth-child(2n){
 	padding-top: 1.2rem;
 }
 
+/*Main Section*/
+/*.main-section{
+    margin-top: 3rem;
+    position: fixed;
+}*/
 
 /*Horizontal Lists*/
 .horizontal-list{
