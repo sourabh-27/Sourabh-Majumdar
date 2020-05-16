@@ -5,16 +5,16 @@ body{
 }
 
 /* Body Header */
-
+/*
 #body-header {
-    height: 65vh;
+    height: 95%;
     opacity: 0.8;
     background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
-}
+}*/
 
 /*Section*/
 section{
