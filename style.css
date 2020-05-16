@@ -1,45 +1,30 @@
 body{
-	margin: 0px;
-	font-family: sans-serif;
+    margin: 0px;
+    font-family: sans-serif;
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-=======
-/* Body Header */
-/*
-#body-header {
-    height: 95%;
-    opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 1.2rem;
-}*/
-
->>>>>>> Fixed responsiveness and image size
 /*Section*/
 section{
-	/*width: 100%;*/
-	display: flex;
-	/*height: 70vh;*/
-	align-items: center;
-	flex-direction: column;
+    /*width: 100%;*/
+    display: flex;
+    /*height: 70vh;*/
+    align-items: center;
+    flex-direction: column;
 }
 
 section:nth-child(2n+1){
-	background-color: white;
+    background-color: white;
 }
 
 section:nth-child(2n){
-	background-color: #9e9b9b29;
+    background-color: #9e9b9b29;
 }
 
 
 /*Margin Classes*/
 .mb75px{
-	margin-bottom: 75px;
+    margin-bottom: 75px;
 }
 
 .mb50px {
@@ -51,32 +36,32 @@ section:nth-child(2n){
 }
 
 .section-heading{
-	width: auto;
-	padding: 20px 10px 10px;
-	/*margin: 10px auto;*/
-	font-weight: 400;
+    width: auto;
+    padding: 20px 10px 10px;
+    /*margin: 10px auto;*/
+    font-weight: 400;
 }
 
 .section-heading span{
-	font-size: 40px;
-	color: #2857a4;
-	display: inline-block;
-	padding-top: 10px;
-	margin-right: 0.5rem;
-	/*margin-right:*/
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+    /*margin-right:*/
 }
 
 
 /*body header*/
 #body-header{
-	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-	/*z-index: 2;*/
-	height: 65vh;
-	background-size: cover;
-	background-position: center;
-	opacity: 0.8;
-	/*background-attachment: fixed;*/
-	padding-top: 1.2rem;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    /*z-index: 2;*/
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
 }
 
 /*Main Section*/
@@ -87,53 +72,53 @@ section:nth-child(2n){
 
 /*Horizontal Lists*/
 .horizontal-list{
-	list-style: none;
-	padding-left: 0px;
-	margin: 0px;
-	/*margin-top: 25px;*/
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    /*margin-top: 25px;*/
 }
 
 .horizontal-list li{
-	display: inline-block;
-	margin: 0px 8px 8px 0px;
-	font-weight: 100;
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
     font-size: 1rem;
 }
 
 .horizontal-list li a{
-	color: white;
-	text-decoration: none;
-	transition: color 0.5s, border-bottom 4s;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
 }
 
 .nav-hover li a:hover{
-	color: lightgrey;
-	border-bottom: 1px solid black;
+    color: lightgrey;
+    border-bottom: 1px solid black;
 }
 
 .text-center{
-	text-align: center;
+    text-align: center;
 }
 
 /*Social Icons*/
 #body-header h1{
-	color: white;
-	margin-top: 20vh;
-	font-size: 3rem;
-	font-weight: 700;
-	letter-spacing: 0.1rem;
-	margin-bottom: 0.5rem;
+    color: white;
+    margin-top: 20vh;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
 }
 
 #body-header .social-icons li a i{
-	border-radius: 50%;
-	margin: 10px 10px 10px;
+    border-radius: 50%;
+    margin: 10px 10px 10px;
     padding: 10px 14px 20px 10px;
-	/*height: 20rem; width: 1.5rem;*/
+    /*height: 20rem; width: 1.5rem;*/
 }
 
 #body-header .social-icons li a i:hover{
-	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
 #contact .social-icons li a i:hover {
@@ -141,77 +126,77 @@ section:nth-child(2n){
 }
 
 .social-icons li a img{
-	width: 1.3rem;
-	padding: 8px;
+    width: 1.3rem;
+    padding: 8px;
 }
 
 /*About page*/
 #about{
-	height: 12rem;
-	width: 100%;
-	position: relative;
+    height: 12rem;
+    width: 100%;
+    position: relative;
 }
 .profile-photo{
-	height: 12rem; width: 12rem;
-	margin: auto;
-	margin-top: -15vh;
+    height: 12rem; width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
 }
 .profile-photo img{
-	height: 100%; width: 100%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 6px 4px white;
-	/*z-index: 1;*/
+    height: 100%; width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px white;
+    /*z-index: 1;*/
 }
 
 #about p{
-	/*margin: 3rem 20rem 0px;*/
-	padding: 10px;
+    /*margin: 3rem 20rem 0px;*/
+    padding: 10px;
     width: 70%;
-	color: grey;
-	text-align: justify;
-	line-height: 28px;
+    color: grey;
+    text-align: justify;
+    line-height: 28px;
     font-size: 1.1rem;
     margin: auto;
 
 }
 
 .highlighted-text{
-	color: #2857a4;
-	font-weight: 600;
+    color: #2857a4;
+    font-weight: 600;
 }
 
 
 /*Skills*/
 .skills-display{
-	width: 75%;
-	padding: 10px;
-	margin-bottom: 30px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly; 
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
 }
 
 .skill-progress{
-	height: 2.2rem;
-	width: 11rem;
-	/*border: 2px solid grey;*/
-	background-color: lightgrey;
-	border-radius: 1.1rem;
-	box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
-	margin: 25px;
-	overflow: hidden;
+    height: 2.2rem;
+    width: 11rem;
+    /*border: 2px solid grey;*/
+    background-color: lightgrey;
+    border-radius: 1.1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
 }
 
 .skill-progress>div{
-	border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
     box-shadow: 1px 1px 5px 2px #989882;
 }
 
 .skill-name span{
-	color: white;
-	font-size: 1.4rem;
-	margin-left: 10px;
-	vertical-align: middle;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    vertical-align: middle;
 
 }
 
@@ -511,19 +496,3 @@ input:focus, select:focus, textarea:focus, button:focus {
     background-color: #80808078;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
