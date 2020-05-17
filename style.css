@@ -4,6 +4,10 @@ body{
     font-size: 30px;
 }
 
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
 /*Section*/
 section{
     /*width: 100%;*/
@@ -54,13 +58,13 @@ section:nth-child(2n){
 
 /*body header*/
 #body-header{
-    background-image: url(background-img.jpg);
+    background-image: url(Images/macbook_mouse.jpg);
     /*z-index: 2;*/
     height: 65vh;
     background-size: cover;
-    /*background-position: center;*/
-    /*opacity: 0.8;*/
-    /*background-attachment: fixed;*/
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
     padding-top: 1.2rem;
 }
 
@@ -70,6 +74,63 @@ section:nth-child(2n){
     position: fixed;
 }*/
 
+/*New Hamburgure list for mobiles or less screen size adding*/
+.bars{
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+.bars i {
+    font-size: 2rem;
+}
+
+.dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
 /*Horizontal Lists*/
 .horizontal-list{
     list-style: none;
@@ -82,12 +143,13 @@ section:nth-child(2n){
     display: inline-block;
     margin: 0px 8px 8px 0px;
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .horizontal-list li a{
     color: white;
     text-decoration: none;
+    list-style: none;
     transition: color 0.5s, border-bottom 4s;
 }
 
@@ -96,6 +158,10 @@ section:nth-child(2n){
     border-bottom: 1px solid black;
 }
 
+/*Text alignments*/
+.text-right{
+    text-align: right;
+}
 .text-center{
     text-align: center;
 }
@@ -514,6 +580,12 @@ input:focus, select:focus, textarea:focus, button:focus {
     /*.timeline-box:nth-child(2n){
         left: 12%;
     }*/
+    .bars {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -530,7 +602,7 @@ input:focus, select:focus, textarea:focus, button:focus {
         top: 10%;
         left: 2%;
     }
-    
+
     #contact-form {
         margin-left: 0%;
     }
