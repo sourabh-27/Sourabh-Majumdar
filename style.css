@@ -565,26 +565,10 @@ input:focus, select:focus, textarea:focus, button:focus {
 
 
 /*Adding reponsiveness for mobiles*/
-@media screen and (max-width: 572px){
 
-    .timeline-box{
-        left: 10% !important;
-        width: 100%;
-    }
-    /*.timeline-box:nth-child(2n+1)::after{
-        left: -12%;
-    }
-    .timeline-box:nth-child(2n)::after{
-        left: -12%;
-    }*/
-    /*.timeline-box:nth-child(2n){
-        left: 12%;
-    }*/
-    .bars {
-        display: block;
-    }
-    .nav-menu {
-        display: none;
+@media screen and (max-width: 850px){
+    .mb110px{
+        margin-bottom: 100px;
     }
 }
 
@@ -616,5 +600,37 @@ input:focus, select:focus, textarea:focus, button:focus {
     #contact-form-container {
         width: 80%;
         margin: 10%;
+    }
+
+    .mb110px{
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 572px){
+  /*  html{
+        font-size: 15px;
+    }*/
+    .timeline-box{
+        left: 10% !important;
+        width: 100%;
+    }
+    /*.timeline-box:nth-child(2n+1)::after{
+        left: -12%;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left: -12%;
+    }*/
+    /*.timeline-box:nth-child(2n){
+        left: 12%;
+    }*/
+    .bars {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .mb110px{
+        margin-bottom: 210px;
     }
 }
