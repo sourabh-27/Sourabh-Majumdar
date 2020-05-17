@@ -54,13 +54,13 @@ section:nth-child(2n){
 
 /*body header*/
 #body-header{
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-image: url(background-img.jpg);
     /*z-index: 2;*/
     height: 65vh;
     background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    background-attachment: fixed;
+    /*background-position: center;*/
+    /*opacity: 0.8;*/
+    /*background-attachment: fixed;*/
     padding-top: 1.2rem;
 }
 
@@ -495,4 +495,42 @@ input:focus, select:focus, textarea:focus, button:focus {
 .portfolio-image-container:hover .portfolio-details {
     background-color: #80808078;
     color: white;
+}
+
+
+/*Adding reponsiveness for mobiles*/
+@media screen and (max-width: 572px){
+
+    .timeline-box{
+        left: 10% !important;
+        width: 100%;
+    }
+    /*.timeline-box:nth-child(2n+1)::after{
+        left: -12%;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left: -12%;
+    }*/
+    /*.timeline-box:nth-child(2n){
+        left: 12%;
+    }*/
+}
+
+@media screen and (max-width: 768px){
+    .timeline-box {
+        width: 90%;
+        left: 10% !important;
+    }
+
+    .timeline-box::after {
+        left: -10.2% !important;
+    }
+
+    #timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
+    #contact-form {
+        margin-left: 0%;
+    }
 }
