@@ -263,7 +263,7 @@ section:nth-child(2n){
     font-size: 1.4rem;
     margin-left: 10px;
     vertical-align: middle;
-
+    /*margin-bottom: 30px;*/
 }
 
 /* setting background-color */
@@ -609,7 +609,7 @@ input:focus, select:focus, textarea:focus, button:focus {
 
 @media screen and (max-width: 572px){
     html{
-        font-size: 10px;
+        font-size: 15px;
     }
     .timeline-box{
         left: 10% !important;
@@ -632,5 +632,18 @@ input:focus, select:focus, textarea:focus, button:focus {
     }
     .mb110px{
         margin-bottom: 210px;
+    }
+    .section-heading span{
+        font-size: 32px;
+    }
+    .skill-name span{
+        vertical-align: middle;
+    }
+   /* .skill-name span{
+        margin-bottom: 100px;
+    }*/
+    .skill-name span{
+        position: relative;
+        top: -4px;
     }
 }
