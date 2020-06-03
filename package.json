@@ -1,0 +1,19 @@
+{
+  "name": "resume-project",
+  "version": "1.0.0",
+  "description": "Sourabh Majumdar's resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabh-27/Sourabh-Majumdar.git"
+  },
+  "author": "Sourabh Majumdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourabh-27/Sourabh-Majumdar/issues"
+  },
+  "homepage": "https://github.com/sourabh-27/Sourabh-Majumdar#readme"
+}
